@@ -1,0 +1,108 @@
+body{
+    /* background-color: black; */
+     background-color: var(--primary-color); 
+   margin: 0%;
+   padding: 0%;
+
+}
+
+h1 {
+
+    color: var(--secondary-color);
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+table{
+    color: var(--secondary-color);
+}
+
+
+button{
+    background: #212121;
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer; 
+    transition: background 0.5s;
+}
+
+
+
+button span{
+    display: block;
+    background: #edf2fc;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    /* margin-left: 2px; */
+    transition: background 0.5s, margin-left 0.5s;
+}
+
+.active{
+    background: silver;
+    }
+    
+    .active span{
+    background-color: #fff;
+    margin-left: 31px;
+    
+    }
+
+:root {
+    --primary-color: #edf2fc;
+   --secondary-color: #212121; 
+  
+}  
+
+.dark-theme{
+   --primary-color: #000106;
+   --secondary-color: #fff;
+
+}
+
+#input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#res{
+
+display: flex;
+justify-content: center;
+align-items: center;
+color: var(--secondary-color);
+}
+
+#remove {
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#enter{
+    cursor: pointer;
+   background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+/* .floyd{
+    background-color:  var(--secondary-color);
+width: fit-content;
+height: fit-content;
+cursor: pointer;
+color: var(--primary-color);
+border-radius: 10%;
+} */
